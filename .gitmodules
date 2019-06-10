@@ -4,3 +4,6 @@
 [submodule "Workshops/aws-serverless-website-workshop"]
 	path = Workshops/aws-serverless-website-workshop
 	url = git@github.com:Panology/aws-serverless-website-workshop.git
+[submodule "Workshops/serverless-chatbots-workshop"]
+	path = Workshops/serverless-chatbots-workshop
+	url = git@github.com:Panology/serverless-chatbots-workshop.git
