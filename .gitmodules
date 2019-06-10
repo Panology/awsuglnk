@@ -1,3 +1,6 @@
 [submodule "Workshops/aws-lambda-zombie-workshop"]
 	path = Workshops/aws-lambda-zombie-workshop
 	url = git@github.com:Panology/aws-lambda-zombie-workshop.git
+[submodule "Workshops/aws-serverless-website-workshop"]
+	path = Workshops/aws-serverless-website-workshop
+	url = git@github.com:Panology/aws-serverless-website-workshop.git
