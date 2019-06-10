@@ -1,0 +1,19 @@
+# Repo Specific Ignores
+#
+# Ignore these Terraform files/folders
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+#
+# Ignore EC2 Keys
+*.pem
+
+#
+# End
+
