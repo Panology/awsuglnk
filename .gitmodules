@@ -7,3 +7,6 @@
 [submodule "Workshops/serverless-chatbots-workshop"]
 	path = Workshops/serverless-chatbots-workshop
 	url = git@github.com:Panology/serverless-chatbots-workshop.git
+[submodule "git-secrets"]
+	path = git-secrets
+	url = git@github.com:awslabs/git-secrets.git
