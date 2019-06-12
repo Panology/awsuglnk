@@ -1,6 +1,7 @@
-# awsuglnk
+# AWS User Group Lincoln (AWSUGLnk)
 This is the repo for the AWS Users Group Lincoln (Lincoln, NE).
 
 Content:
 
 * `Workshops` - These submodules contain the various workshops we conduct
+* `account-setup` - This contains the best practices and code we put together to help automate AWS account setup
