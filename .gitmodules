@@ -10,3 +10,6 @@
 [submodule "git-secrets"]
 	path = git-secrets
 	url = git@github.com:awslabs/git-secrets.git
+[submodule "prowler"]
+	path = prowler
+	url = https://github.com/toniblyx/prowler
