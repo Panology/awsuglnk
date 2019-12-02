@@ -1,13 +1,13 @@
 // Set human readable alias for the account
 resource "aws_iam_account_alias" "master" {
-  account_alias = "delichty-awsplay-master"
+  account_alias = "${local.account_alias}"
   provider      = "aws.master"
 }
 
 // Add Google G-Suite as SAML IdP
 resource "aws_iam_saml_provider" "master_googlegsuite" {
   name                   = "GoogleGSuite"
-  saml_metadata_document = "${file("saml-metadata/gsuite-panologyinc.com.xml")}"
+  saml_metadata_document = "${file("saml-metadata/gsuite-saml.xml")}"
   provider               = "aws.master"
 }
 

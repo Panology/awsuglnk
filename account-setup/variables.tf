@@ -17,3 +17,17 @@ variable "developer_default_arn" {
 variable "billing_default_arn" {
   default = "arn:aws:iam::aws:policy/job-function/Billing"
 }
+
+# User will be prompted if no default exists
+variable "company_name" {
+
+}
+
+# User will be prompted if no default exists
+variable "account_name" {
+
+}
+
+locals {
+  account_alias = "${var.company_name}-${var.account_name}"
+}
